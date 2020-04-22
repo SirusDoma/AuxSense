@@ -4,9 +4,9 @@
 - **Email**: com@cxo2.me
 - **Version**: 0.9.8
 
-WASAPI Audio Hook to force the client run under Shared Mode.  
+WASAPI Audio Hook to force the client run under Shared Mode. ([Download](https://github.com/SirusDoma/AuxSense/releases))  
 
-It make a use of `GetMixFormat` to retrieve proper `WAVEFORMATEX` for `IAudioClient` to run properly with `AUDCLNT_SHAREMODE_SHARED`.  
+It make a use of `GetMixFormat` to retrieve proper `WAVEFORMATEX` for `IAudioClient` to run properly with Shared Mode.  
 Note that this hook will not only adapt audio client to shared mode, it will also adjust audio stream sample rate to 44100hz.
 
 ## Usage ##
